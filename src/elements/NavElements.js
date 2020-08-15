@@ -12,7 +12,7 @@ export const NavWrapper = styled.nav`
   z-index: 3;
 `
 export const LogoText = styled.h1`
-  font-family: ${props => props.theme.fonts.logo};
+  font-family: ${props => props.theme.fonts.mainL};
   color: ${props => (props.primary ? "white" : "#ddedfd")};
   font-size: 41px;
   padding: 0 50px;

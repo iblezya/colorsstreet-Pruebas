@@ -2,7 +2,7 @@ export default {
   fonts: {
     main: "Comfortaa, Muli, sans-serif",
     code: "Roboto Mono, monospace",
-    logo: "Kaushan Script",
+    mainL: "Kaushan Script,Comfortaa",
   },
   colors: {
     main1: "hsl(207,70%,59%)",
