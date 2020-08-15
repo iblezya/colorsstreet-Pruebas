@@ -46,7 +46,7 @@ module.exports = {
       options: {
         fonts: [
           `roboto mono`,
-          `Kaushan Script\:400,400i,700,700i`,
+          `kaushan script`,
           `comfortaa\:400,400i,700,700i`,
           `muli\:400,400i,700,700i`,
         ],
