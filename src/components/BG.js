@@ -35,8 +35,9 @@ export const BG = ({ className }) => {
     <StyleBGI
       className={className}
       fluid={data.indexImage.childImageSharp.fluid}
+      alt=""
     >
-      <IMG src={data.wave.publicURL}></IMG>
+      <IMG src={data.wave.publicURL} alt=""></IMG>
     </StyleBGI>
   )
 }

@@ -1,5 +1,5 @@
 import React from "react"
-import { Tarjeta, Mapa } from "../components"
+import { Tarjeta } from "../components"
 
 import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
@@ -87,7 +87,7 @@ export const PruebaPage = ({ fixed }) => {
     <Tarjeta>
       <Card>
         <CardImg>
-          <Imgx fluid={data.producto1.childImageSharp.fluid} />
+          <Imgx fluid={data.producto1.childImageSharp.fluid} alt="" />
         </CardImg>
         <Text>
           <h1>Producto 1</h1>
@@ -99,7 +99,7 @@ export const PruebaPage = ({ fixed }) => {
       </Card>
       <Card>
         <CardImg>
-          <Imgx fluid={data.producto2.childImageSharp.fluid} />
+          <Imgx fluid={data.producto2.childImageSharp.fluid} alt="" />
         </CardImg>
 
         <Text>
@@ -112,7 +112,7 @@ export const PruebaPage = ({ fixed }) => {
       </Card>
       <Card>
         <CardImg>
-          <Imgx fluid={data.producto3.childImageSharp.fluid} />
+          <Imgx fluid={data.producto3.childImageSharp.fluid} alt="" />
         </CardImg>
 
         <Text>
@@ -125,7 +125,7 @@ export const PruebaPage = ({ fixed }) => {
       </Card>
       <Card>
         <CardImg>
-          <Imgx fluid={data.producto4.childImageSharp.fluid} />
+          <Imgx fluid={data.producto4.childImageSharp.fluid} alt="" />
         </CardImg>
 
         <Text>
@@ -138,7 +138,7 @@ export const PruebaPage = ({ fixed }) => {
       </Card>
       <Card>
         <CardImg>
-          <Imgx fluid={data.producto5.childImageSharp.fluid} />
+          <Imgx fluid={data.producto5.childImageSharp.fluid} alt="" />
         </CardImg>
 
         <Text>
@@ -151,7 +151,7 @@ export const PruebaPage = ({ fixed }) => {
       </Card>
       <Card>
         <CardImg>
-          <Imgx fluid={data.producto6.childImageSharp.fluid} />
+          <Imgx fluid={data.producto6.childImageSharp.fluid} alt="" />
         </CardImg>
 
         <Text>

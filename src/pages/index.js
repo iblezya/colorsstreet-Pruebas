@@ -22,7 +22,7 @@ export const IndexPage = props => {
       <BG />
       <Content>
         <a href="/">
-          <img src={data.logo.publicURL} width="500px" />
+          <img src={data.logo.publicURL} width="500px" alt="" />
         </a>
         <H1c color="light2">
           <Typewriter
