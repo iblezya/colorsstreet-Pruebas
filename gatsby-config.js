@@ -35,7 +35,6 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             option: {
-              maxWidth: 1920,
               quality: 100,
             },
           },
@@ -47,10 +46,29 @@ module.exports = {
       options: {
         fonts: [
           `roboto mono`,
+          `Kaushan Script\:400,400i,700,700i`,
           `comfortaa\:400,400i,700,700i`,
           `muli\:400,400i,700,700i`,
         ],
         display: "swap",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-modal-routing`,
+      options: {
+        // See http://reactcommunity.org/react-modal/#usage
+        modalProps: {
+          style: {
+            overlay: {
+              backgroundColor: `rgba(0, 0, 0, 0.85)`,
+            },
+            content: {
+              border: `none`,
+              background: `none`,
+              WebkitOverflowScrolling: `touch`,
+            },
+          },
+        },
       },
     },
   ],

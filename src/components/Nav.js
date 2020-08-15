@@ -1,5 +1,12 @@
 import React from "react"
+import { NavWrapper, LogoText } from "../elements"
+import { Burger } from "../components"
 
 export const Nav = () => {
-  return <h1>Halfwayc</h1>
+  return (
+    <NavWrapper>
+      <LogoText>Colors Street</LogoText>
+      <Burger />
+    </NavWrapper>
+  )
 }

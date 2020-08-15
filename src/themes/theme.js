@@ -1,5 +1,6 @@
 export default {
   fonts: {
+    logo: "Kaushan Script",
     main: "Comfortaa, Muli, sans-serif",
     code: "Roboto Mono, monospace",
   },
@@ -9,8 +10,8 @@ export default {
     dark1: "#01507b",
     dark2: "hsl(227,2%,26%)",
     dark3: "hsl(227,2%,64%)",
-    light1: "#0753a4",
-    light2: "hsl(0,0%,99%)",
+    light1: "#ddedfd",
+    light2: "white",
   },
   breakpoints: {
     mobile: "only screen and (max-width: 50rem)",
