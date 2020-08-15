@@ -1,8 +1,8 @@
 export default {
   fonts: {
-    logo: "Kaushan Script",
     main: "Comfortaa, Muli, sans-serif",
     code: "Roboto Mono, monospace",
+    logo: "Kaushan Script",
   },
   colors: {
     main1: "hsl(207,70%,59%)",
